@@ -39,7 +39,7 @@ setup(
     python_requires=">=3.7, <4",
     include_package_data=True,
     install_requires=[
-        "requests == 2.20.1",
+        "requests == 2.32.2",
         "SQLAlchemy == 1.4.20",
         "pandas == 1.1.4",
         "arrow == 1.2.1",
@@ -48,12 +48,12 @@ setup(
         "marshmallow-sqlalchemy == 0.23.1",
         "marshmallow == 3.2.2",
         "plotly==4.12.0",
-        "dash==1.17.0",
+        "dash==2.15.0",
         "simplejson==3.16.0",
         "jqdatapy==0.1.6",
         "dash-bootstrap-components==0.11.0",
         "dash_daq==0.5.0",
-        "scikit-learn==1.0.1",
+        "scikit-learn==1.5.0",
     ],
     project_urls={  # Optional
         "Bug Reports": "https://github.com/zvtvz/zvt/issues",
